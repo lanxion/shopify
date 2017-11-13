@@ -1,0 +1,21 @@
+{
+    "name": "lanxion/shopify",
+    "description": "shopify api",
+    "type": "lib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenhaoran",
+            "email": "chenhaoran@lanixon.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+       "psr-4": {
+           "Shopify\\": "src/Shopify/"
+       }
+    }
+}
